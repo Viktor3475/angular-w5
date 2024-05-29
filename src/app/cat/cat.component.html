@@ -1,0 +1,5 @@
+<div class="code-input">
+    <input placeholder="ex. 200" type="text" [(ngModel)]="valueCode"/>
+    <button (click)="processCode()">Натисни</button>
+</div>
+<img *ngIf="img != null" [src]="imgLink" style="height: 500px; width: 500px;">

@@ -1,0 +1,5 @@
+<div class="site-input">
+    <input placeholder="ex. wikipedia.org" type="text" [(ngModel)]="siteName"/>
+    <button (click)="processSiteName()">Натисни</button>
+</div>
+<img *ngIf="favicon != null" [src]="faviconLink">
